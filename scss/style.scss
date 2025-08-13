@@ -1,16 +1,16 @@
 /******* Bootstrap Theming ********/
 
-$primary: #a7a37e;
-$secondary: #00394f;
+$primary: #faa094ff;
+$secondary: #008C76FF;
 
 $theme-colors: (
-    'primary': $primary,
-    'secondary': $secondary,
+    "primary": $primary,
+    "secondary": $secondary,
 );
 
-$font-family-sans-serif: 'Nunito', sans-serif;
+$font-family-sans-serif: "Nunito", sans-serif;
 
-$headings-font-family: 'Handlee', cursive;
+$headings-font-family: "Handlee", cursive;
 
 $body-color: #666666;
 
@@ -24,7 +24,7 @@ $border-radius: 5px;
 
 $btn-border-radius: 30px;
 
-@import 'bootstrap/scss/bootstrap';
+@import "bootstrap/scss/bootstrap";
 
 /********** Custom CSS ************/
 
@@ -44,7 +44,7 @@ $btn-border-radius: 30px;
 
 .section-title::before {
     position: absolute;
-    content: '';
+    content: "";
     top: 10px;
     left: 0;
     width: 100%;
@@ -52,10 +52,10 @@ $btn-border-radius: 30px;
     background: $primary;
 }
 
-[class^='flaticon-']:before,
-[class*=' flaticon-']:before,
-[class^='flaticon-']:after,
-[class*=' flaticon-']:after {
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
     font-size: inherit;
     margin-left: 0;
 }
